@@ -16,11 +16,11 @@ The [city.txt](src/main/resources/city.txt) is located in src/main/resources
 
 [Code](src/main/java/com/mastercard/challenge)
 
-[Unit Tests](src/test/java/com/mastercard/challenge/ChallengeApplicationTests)
+[Unit Tests](src/test/java/com/mastercard/challenge/ChallengeApplicationTests.java)
 
 [city.txt](src/main/resources/city.txt)
 
-[Javadocs](docs/)
+[Javadocs](https://veniamin-ilmer.github.io/mastercard-challenge/docs/)
 
 ### Operation
 
