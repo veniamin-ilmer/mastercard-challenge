@@ -14,11 +14,11 @@ The [city.txt](src/main/resources/city.txt) is located in src/main/resources
 
 ### Links
 
-[Code](src/main/java/com.mastercard.challenge)
+[Code](src/main/java/com/mastercard/challenge)
 
-[Unit Tests](src/test/java/com.mastercard.challenge/ChallengeApplicationTests)
+[Unit Tests](src/test/java/com/mastercard/challenge/ChallengeApplicationTests)
 
-[city.txt](src/main/java/resources/city.txt)
+[city.txt](src/main/resources/city.txt)
 
 [Javadocs](docs/)
 
