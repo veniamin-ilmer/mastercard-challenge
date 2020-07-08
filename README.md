@@ -12,6 +12,16 @@ It responds with 'yes' if city1 is connected to city2. Otherwise it responds wit
 
 The [city.txt](src/main/resources/city.txt) is located in src/main/resources
 
+### Links
+
+[Code](src/main/java/com.mastercard.challenge)
+
+[Unit Tests](src/test/java/com.mastercard.challenge/ChallengeApplicationTests)
+
+[city.txt](src/main/java/resources/city.txt)
+
+[Javadocs](docs/)
+
 ### Operation
 
 The application loads all information from city.txt into a hashmap containing a hashset.
