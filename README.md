@@ -52,3 +52,24 @@ If the function takes too long to recurse, we might save a cached version of the
 Note that everything is saved in lowercase to compare ignoring case.
 
 Because of the recursive nature of the connection search, it is limited in how many layers it can search. The unit test goes into 100 layers successfully. If significantly deeper connections are required, the algorithm would need to be updated to take that into account. 
+
+### Self referenced cities
+
+What to do if the user asks if city1 is connected to city1? And city1 is not in the hashmap at all?
+
+For example, you have the standard city.txt:
+
+    Boston, New York
+    Philadelphia, Newark
+    Newark, Boston
+    Trenton, Albany
+
+And this query comes in:
+
+http://localhost:8080/connected?origin=Atlanta&destination=Atlanta
+
+Atlanta is not a city listed in the map. Yet, it feels intuitive to understand that any city should be connected to itself, regardless if it is in the map or not.
+
+That is why I have made the decision to allow for all queries referencing the same city, to return "yes", that there is a connection, regardless of them being on the map or not.
+
+If this needs to be changed, simply change [this line](src/main/java/com/mastercard/challenge/Connections.java#L137).
