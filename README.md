@@ -10,8 +10,6 @@ http://localhost:8080/connected?origin=city1&destination=city2
 
 It responds with 'yes' if city1 is connected to city2. Otherwise it responds with 'no'.
 
-The [city.txt](src/main/resources/city.txt) is located in src/main/resources
-
 ### Links
 
 [Code](src/main/java/com/mastercard/challenge)
