@@ -24,15 +24,14 @@ It responds with 'yes' if city1 is connected to city2. Otherwise it responds wit
 
 The application loads all information from city.txt into a hashmap containing a hashset.
 
-We are saving all of the connections in this hashmap in both directions.
+We are saving all of the connections in this hashmap in both directions. Example city.txt:
 
-    Example:
     Boston, New York
     Philadelphia, Newark
     Newark, Boston
     Trenton, Albany
 
-Will save as:
+Will save as this map and set:
 
     {
       boston -> (new york, newark),
@@ -45,7 +44,6 @@ Will save as:
 
 Note that the information saved is only one layer deep of connections.
 Functions checking for connections would need to recurse through the layers to find deeper connections.
-If the function takes too long to recurse, we might save a cached version of the deep connections.
 
 Note that everything is saved in lowercase to compare ignoring case.
 
