@@ -73,7 +73,7 @@ class ChallengeApplicationTests {
     }
 
     /**
-     * Make sure the connections are unidirectional
+     * Make sure the connections are bidirectional
      */
     @Test
     void testBackwards() {
